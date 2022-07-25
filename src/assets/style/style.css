@@ -1,0 +1,23 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  max-width: 380px;
+  max-height: 260px;
+}
+
+.mySwiper .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+  top: 275px;
+}
+
+@media(max-width:765px){
+  .mySwiper .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+    top: 260px;
+  }
+}
+
+.mySwiper .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal .swiper-scrollbar-drag {
+  background-color: rgba(28, 109, 208, 0.8);
+}

@@ -63,7 +63,7 @@ const Header = () => {
           </div>
           {/* navmobile */}
           <div
-            className={`${mobileNav ? 'left-0' : '-left-full'} md:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all`}
+            className={`${mobileNav ? 'left-0' : '-left-full'} md:hidden fixed bottom-0 w-full max-w-xs h-full transition-all`}
           >
             <NavMobile />
           </div>

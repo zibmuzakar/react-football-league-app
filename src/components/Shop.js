@@ -13,7 +13,7 @@ const Shop = () => {
         <div className="flex flex-wrap -m-4">
             {product.map((product, i) => {
                 return(
-                    <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
+                    <div className="lg:w-1/4 md:w-1/2 p-4 w-full" key={i}>
                         <a className="block relative h-50 rounded overflow-hidden" href='/'>
                             <img alt="ecommerce" className="object-cover object-center w-full h-full block"
                                 src={product.img.type} />

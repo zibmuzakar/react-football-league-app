@@ -16,6 +16,9 @@
   .mySwiper .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
     top: 260px;
   }
+  .swiper-slide {
+    margin-right: 10px !important;
+  }
 }
 
 .mySwiper .swiper-horizontal > .swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal .swiper-scrollbar-drag {

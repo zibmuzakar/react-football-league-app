@@ -29,7 +29,7 @@ const Hero = () => {
           <h1 className='font-bold text-[40px] lg:text-[55px] leading-tight uppercase'>Bandung Premier League</h1>
         </div>
         {/* next match */}
-        <div className='px-2 lg:pl-20 lg:pr-0 md:min-w-[410px] lg:min-w-[850px] '>
+        <div className='px-2 lg:pl-20 pr-0 md:min-w-[410px] lg:min-w-[850px] '>
           {/* text */}
             <h2 className='font-light text-[30px] mb-2 lg:mb-4'>Next Match</h2>
           {/* swipper */}
@@ -49,33 +49,33 @@ const Hero = () => {
                     {/* txt gameweek */}
                     <div className='font-normal text-center italic mb-4 text-[20px]'>Gameweek {match.game}</div>
                     {/* club */}
-                    <div className='px-4 items-center flex flex-row justify-between mb-6'>
+                    <div className='px-4 items-center flex flex-row justify-between mb-8 lg:mb-10'>
                       {/* home */}
                       <div className='flex flex-col items-center'>
                         {/* img */}
-                        <img className='h-[75px]' src={match.logoHome.type} alt='' />
-                        <p className='font-normal max-w-[120px] truncate text-[20px]'>{match.home}</p>
+                        <img className='h-[75px] mb-2' src={match.logoHome.type} alt='' />
+                        <p className='font-normal max-w-[120px] max-h-[20px] leading-none text-[20px]'>{match.home}</p>
                       </div>
                       {/* txt vs */}
                       <div className='font-bold text-[30px] text-center'>VS</div>
                       {/* away */}
                       <div className='flex flex-col items-center'>
                         {/* img */}
-                        <img className='h-[75px]' src={match.logoAway.type} alt='' />
-                        <p className='font-normal max-w-[120px] truncate text-[20px]'>{match.away}</p>
+                        <img className='h-[75px] mb-2' src={match.logoAway.type} alt='' />
+                        <p className='font-normal max-w-[120px] max-h-[20px] leading-none text-[20px]'>{match.away}</p>
                       </div>
                     </div>
                     {/* vanue and date */}
                     <div>
                       {/* location */}
                       <div className='text-white flex flex-row items-center'>
-                        <MdLocationPin className='text-[17px] mr-2' />
-                        <p className='text-[12px]'>{match.vanue}</p>
+                        <MdLocationPin className='text-[15px] lg:text-[17px] mr-2' />
+                        <p className='text-[10px] lg:text-[12px]'>{match.vanue}</p>
                       </div>
                       {/* date */}
                       <div className='text-white flex flex-row items-center'>
-                        <MdOutlineCalendarToday className='text-[17px] mr-2' />
-                        <p className='text-[12px] mt-1'>{match.date} - {match.time}</p>
+                        <MdOutlineCalendarToday className='text-[15px] lg:text-[17px] mr-2' />
+                        <p className='text-[10px] lg:text-[12px] mt-1'>{match.date} - {match.time}</p>
                       </div>
                     </div>
                   </div>

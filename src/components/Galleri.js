@@ -10,7 +10,7 @@ const Galleri = () => {
             <h1 className='text-[25px] font-medium px-2'>Gallery</h1>
             {/* <p className='text-sm text-slate-700 flex items-center gap-x-2'>More News <BsArrowRight className='mt-[2px]' /></p> */}
         </div>
-        <div className='flex flex-col lg:flex-wrap md:-m-2 -m-1'>
+        <div className='flex flex-col lg:flex-row md:-m-2 -m-1'>
             <div className='flex flex-wrap w-full lg:w-1/2'>
                 <div className='md:p-2 p-1 w-1/2'>
                     <img alt='gallery' className='w-full object-cover h-full object-center block'

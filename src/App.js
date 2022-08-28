@@ -1,25 +1,24 @@
 import React from 'react';
-import Footer from './components/Footer';
-import Galleri from './components/Galleri';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Fixtures from './pages/Fixtures';
+import Home from './pages/Home';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Main from './components/Main';
-import News from './components/News';
-import Shop from './components/Shop';
-import Sponsor from './components/Sponsor';
+import Footer from './components/Footer';
+import ErrorPage from './pages/ErrorPage';
+import News from './pages/News';
 
 function App() {
   return (
-    <div className='app'>
+    <Router>
       <Header />
-      <Hero />
-      <Main />
-      <News />
-      <Galleri />
-      <Shop />
-      <Sponsor />
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/news' element={<News/>} />
+        <Route path='/fixtures' element={<Fixtures/>} />
+        <Route path='*' element={<ErrorPage/>} />
+      </Routes>
       <Footer />
-    </div>
+    </Router>
   );
 }
 

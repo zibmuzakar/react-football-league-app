@@ -29,7 +29,7 @@ const Hero = () => {
           <h1 className='font-bold text-[40px] lg:text-[55px] leading-tight uppercase'>Bandung Premier League</h1>
         </div>
         {/* next match */}
-        <div className='px-2 lg:pl-20 pr-0 md:min-w-[410px] lg:min-w-[850px] '>
+        <div className='px-2 lg:pl-20 pr-0 md:min-w-[410px] lg:min-w-[850px] homeHero'>
           {/* text */}
             <h2 className='font-light text-[30px] mb-2 lg:mb-4'>Next Match</h2>
           {/* swipper */}
@@ -54,7 +54,7 @@ const Hero = () => {
                       <div className='flex flex-col items-center'>
                         {/* img */}
                         <img className='h-[75px] mb-2' src={match.logoHome.type} alt='' />
-                        <p className='font-normal max-w-[120px] max-h-[20px] leading-none text-[20px]'>{match.home}</p>
+                        <p className='font-normal max-w-[120px] max-h-[20px] leading-none text-[20px] text-center'>{match.home}</p>
                       </div>
                       {/* txt vs */}
                       <div className='font-bold text-[30px] text-center'>VS</div>
@@ -62,7 +62,7 @@ const Hero = () => {
                       <div className='flex flex-col items-center'>
                         {/* img */}
                         <img className='h-[75px] mb-2' src={match.logoAway.type} alt='' />
-                        <p className='font-normal max-w-[120px] max-h-[20px] leading-none text-[20px]'>{match.away}</p>
+                        <p className='font-normal max-w-[120px] max-h-[20px] leading-none text-[20px] text-center'>{match.away}</p>
                       </div>
                     </div>
                     {/* vanue and date */}

@@ -1,12 +1,23 @@
-import Arsenal from './assets/img/logo/arsenal.png';
-import Mancity from './assets/img/logo/mancity-01.png';
-import Manutd from './assets/img/logo/manutd-01.png';
-import Chelsea from './assets/img/logo/chelsea-01.png';
-import Brentford from './assets/img/logo/brentford-01.png';
-import Burnley from './assets/img/logo/burnley-01.png';
-import Everton from './assets/img/logo/everton-01.png';
-import Watford from './assets/img/logo/watford-01.png';
-import Wolves from './assets/img/logo/wolfer-01.png';
+// logo club
+import Adios from './assets/img/logo/adiosfc.png';
+import Alkanara from './assets/img/logo/alkanara.png';
+import Andir from './assets/img/logo/andirunited.png';
+import Bagundal from './assets/img/logo/bagundal.png';
+import Mengbal from './assets/img/logo/bandungmengbal.png';
+import Pride from './assets/img/logo/bandungpride.png';
+import Banzai from './assets/img/logo/banzai.png';
+import Baraya from './assets/img/logo/barayajabar.png';
+import Besitua from './assets/img/logo/besitua.png';
+import Bonesc from './assets/img/logo/bonesc.png';
+import Buciper from './assets/img/logo/buciper.png';
+import Expose from './assets/img/logo/expose.png';
+import Noname from './assets/img/logo/noname.png';
+import Ortufc from './assets/img/logo/ortufc.png';
+import Popthree from './assets/img/logo/popthree.png';
+import Prima from './assets/img/logo/primafc.png';
+import World from './assets/img/logo/worldyoungunited.png';
+import Xtujuhbelas from './assets/img/logo/x17.png';
+
 import Logo from './assets/img/logo/logo-bpl.png';
 import Ake from './assets/img/players/ake.png';
 import Auba from './assets/img/players/auba.png';
@@ -38,10 +49,17 @@ import SponsorB from './assets/img/sponsor/sponsor (2).png';
 import SponsorC from './assets/img/sponsor/sponsor (3).png';
 import SponsorE from './assets/img/sponsor/sponsor (5).png';
 
+import NewsAA from './assets/img/news/news1.jpg';
+import NewsBB from './assets/img/news/news2.jpg';
+import NewsCC from './assets/img/news/news3.jpg';
+import NewsDD from './assets/img/news/news4.jpg';
+import NewsEE from './assets/img/news/news (5).jpg';
+import NewsFF from './assets/img/news/news (6).jpg';
+
 export const navigation = [
     {
       name: 'home',
-      href: 'home',
+      href: '/',
     },
     {
       name: 'news',
@@ -75,30 +93,30 @@ export const navigation = [
 
 export const clubs = [
     {
-        name: 'Arsenal FC',
-        logo: <Arsenal />,
+        name: 'Adios FC',
+        logo: <Adios />,
     },
     {
-        name: 'Chelsea FC',
-        logo: <Chelsea />,
+        name: 'Alkanara',
+        logo: <Alkanara />,
     },
     {
-        name: 'Manchester City',
-        logo: <Mancity />,
+        name: 'Andir United',
+        logo: <Andir />,
     },
     {
-        name: 'Manchester United',
-        logo: <Manutd />,
+        name: 'Bagundal',
+        logo: <Bagundal />,
     },
 ];
 
 export const matches = [
     {
         game: 1,
-        home: 'Manchester United',
-        logoHome: <Manutd />,
-        away: 'Arsenal FC',
-        logoAway: <Arsenal />,
+        home: 'Adios FC',
+        logoHome: <Adios />,
+        away: 'Alkanar',
+        logoAway: <Alkanara />,
         vanue: 'GBLA',
         date: '1 Januari 2022',
         time: '20:00 WIB',
@@ -106,10 +124,10 @@ export const matches = [
     },
     {
         game: 1,
-        home: 'Chelsea FC',
-        logoHome: <Chelsea />,
-        away: 'Arsenal FC',
-        logoAway: <Arsenal />,
+        home: 'Andir United',
+        logoHome: <Andir />,
+        away: 'Bagundal',
+        logoAway: <Bagundal />,
         vanue: 'GBLA',
         date: '1 Januari 2022',
         time: '20:00 WIB',
@@ -117,10 +135,10 @@ export const matches = [
     },
     {
         game: 1,
-        home: 'Manchester City',
-        logoHome: <Mancity />,
-        away: 'Manchester United',
-        logoAway: <Manutd />,
+        home: 'Bandung Mengbal',
+        logoHome: <Mengbal />,
+        away: 'Bandung Pride',
+        logoAway: <Pride />,
         vanue: 'Jalak Harupan',
         date: '1 Januari 2022',
         time: '20:00 WIB',
@@ -128,10 +146,10 @@ export const matches = [
     },
     {
         game: 2,
-        home: 'Chelsea FC',
-        logoHome: <Chelsea />,
-        away: 'Manchester City',
-        logoAway: <Mancity />,
+        home: 'Banzai',
+        logoHome: <Banzai />,
+        away: 'Baraya Jabar',
+        logoAway: <Baraya />,
         vanue: 'Jalak Harupat',
         date: '1 Januari 2022',
         time: '20:00 WIB',
@@ -144,104 +162,167 @@ export const results = [
     date: '20/09/2022',
     time: '21:00',
     league: <Logo />,
-    home: 'Arsenal FC',
-    logoHome: <Arsenal />,
-    away: 'Wolverhampton',
-    logoAway: <Wolves />,
+    home: 'Adios FC',
+    logoHome: <Adios />,
+    away: 'Baraya Jabar',
+    logoAway: <Baraya />,
     score: '2 - 0',
   },
   {
     date: '20/09/2022',
     time: '21:00',
     league: <Logo />,
-    home: 'Everton',
-    logoHome: <Everton />,
-    away: 'Watford',
-    logoAway: <Watford />,
+    home: 'Alkanara',
+    logoHome: <Alkanara />,
+    away: 'Banzai',
+    logoAway: <Banzai />,
     score: '2 - 3',
   },
   {
     date: '20/09/2022',
     time: '21:00',
     league: <Logo />,
-    home: 'Burnley',
-    logoHome: <Burnley />,
-    away: 'Brentford',
-    logoAway: <Brentford />,
+    home: 'Andir United',
+    logoHome: <Andir />,
+    away: 'Bandung Pride',
+    logoAway: <Pride />,
     score: '2 - 1',
   },
   {
     date: '20/09/2022',
     time: '21:00',
     league: <Logo />,
-    home: 'Manchester United',
-    logoHome: <Manutd />,
-    away: 'Chelsea FC',
-    logoAway: <Chelsea />,
+    home: 'Bagundal',
+    logoHome: <Bagundal />,
+    away: 'Bandung Mengbal',
+    logoAway: <Mengbal />,
     score: '2 - 0',
   },
 ];
 
 export const tables = [
   {
-    club: 'Arsenal',
-    logo: <Arsenal />,
+    club: 'Adios',
+    logo: <Adios />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Chelsea',
-    logo: <Chelsea />,
+    club: 'Alkanara',
+    logo: <Alkanara />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Man United',
-    logo: <Manutd />,
+    club: 'Andir United',
+    logo: <Andir />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Man City',
-    logo: <Mancity />,
+    club: 'Bagundal',
+    logo: <Bagundal />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Brentford',
-    logo: <Brentford />,
+    club: 'BDG Mengbal',
+    logo: <Mengbal />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Burnley',
-    logo: <Burnley />,
+    club: 'BDG Pride',
+    logo: <Pride />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Everton',
-    logo: <Everton />,
+    club: 'Banzai',
+    logo: <Banzai />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Watford',
-    logo: <Watford />,
+    club: 'Baraya Jabar',
+    logo: <Baraya />,
     pl: 0,
     gd: 0,
     pts: 0,
   },
   {
-    club: 'Wolves',
-    logo: <Wolves />,
+    club: 'Besi Tua',
+    logo: <Besitua />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'B One SC',
+    logo: <Bonesc />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'Buciper',
+    logo: <Buciper />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'Expose',
+    logo: <Expose />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'No Name',
+    logo: <Noname />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'Ortu FC',
+    logo: <Ortufc />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'Pop Three',
+    logo: <Popthree />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'Prima FC',
+    logo: <Prima />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'WYU',
+    logo: <World />,
+    pl: 0,
+    gd: 0,
+    pts: 0,
+  },
+  {
+    club: 'X-17',
+    logo: <Xtujuhbelas />,
     pl: 0,
     gd: 0,
     pts: 0,
@@ -432,3 +513,42 @@ export const sponsor = [
     img: <SponsorB />,
   },
 ];
+
+export const heroNews = [
+  {
+    title: "FPL team news: Ten Hag reacts to Casemiro signing",
+    image: <NewsAA />,
+    date: "Minggu, 12 Januari 2022",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    title: "Rashford and Sancho strike down Liverpool",
+    image: <NewsBB />,
+    date: "Senin, 13 Februari 2022",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    title: "Man City and Newcastle share six-goal thriller",
+    image: <NewsCC />,
+    date: "Selasa, 14 Maret 2022",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    title: "Ten Hag rethink can put Liverpool on back foot",
+    image: <NewsDD />,
+    date: "Rabu, 15 April 2022",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    title: "Ten Hag rethink can put Liverpool on back foot",
+    image: <NewsEE />,
+    date: "Rabu, 15 April 2022",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    title: "Ten Hag rethink can put Liverpool on back foot",
+    image: <NewsFF />,
+    date: "Rabu, 15 April 2022",
+    desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+]

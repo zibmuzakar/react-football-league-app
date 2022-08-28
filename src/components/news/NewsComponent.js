@@ -1,11 +1,16 @@
 import React from 'react'
+import { BsArrowRight } from 'react-icons/bs';
 
 import { heroNews } from '../../data';
 
 const NewsComponent = () => {
   return (
-    <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+    <section className="text-gray-600 body-font container mx-auto">
+        <div className='border-l-4 border-[#1C6DD0] mb-6 flex justify-between items-center'>
+            <h1 className='text-[25px] text-black font-medium px-2'>News</h1>
+            <p className='text-sm text-slate-700 flex items-center gap-x-2'>More News <BsArrowRight className='mt-[2px]' /></p>
+        </div>
+        <div className="mb-8 mx-auto">
             <div className="flex flex-wrap -m-4">
                 {heroNews.map((news, index) => {
                     return(
